@@ -17,6 +17,10 @@ cd /media/gerald/DC604FBB604F9B62/sa_congreso/patric
 
 #Descargar cada muestra
 # Archivo de entrada con los códigos de acceso (lista de las cepas con las que deseas trabajar
+wget https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/datasets #datasets
+wget https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/dataformat #dataformat
+
+
 
 input_file="patric_assembly_list.txt"
 # Leer cada línea del archivo y descargar los archivos
